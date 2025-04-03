@@ -4,7 +4,7 @@ body{
 
 header{
     max-width: 100%;
-    background-color: brown;
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -23,5 +23,30 @@ ul li{
     text-align: center;
     font-size: 20px;
     cursor: pointer;
-    color: white;
+    color: black;
 }
+
+.sabrina{
+    margin-top: 20px;
+    margin-left: 1700px;
+    border-radius: 20px;
+    height: 100px;
+    width: 200px;
+    font-size: 25px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.fondo{
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-acuarela-rosa-pintado-mano-detallado_1048-17039.jpg);
+    width: 100%;
+    height: 830px;
+}
+
+.bambasabrina{
+    width: 800px;
+    margin-left: 550px;
+}
+
+
+
