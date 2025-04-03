@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+}
+
+header{
+    max-width: 100%;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.logo{
+    height: 50px;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+ul li{
+    list-style: none;
+    padding: 10px 15px;
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
