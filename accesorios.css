@@ -34,8 +34,8 @@ h1{
 }
 
 .articulos{
-    width: 250px;
-    height: 400px;
+    width: 300px;
+    height: 500px;
     border: 2px solid #333;
     margin-left: 50px;
     text-align: center;
@@ -57,9 +57,10 @@ h2{
     color: white;
     background-color: #af0000;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .articulos img{
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
 }

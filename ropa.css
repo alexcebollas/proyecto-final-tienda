@@ -57,10 +57,11 @@ h2{
     background-color: #af0000;
     border-radius: 10px;
     color: white;
+    cursor: pointer;
 }
 
 .articulos img{
-    width: 220px;
+    width: 200px;
     height: 335px;
 }
 
