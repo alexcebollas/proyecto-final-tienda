@@ -1,5 +1,7 @@
-body{
+body {
+    font-family: 'Times New Roman', Times, serif;
     margin: 0;
+    background: white;
 }
 
 header{
@@ -8,12 +10,6 @@ header{
     display: flex;
     justify-content: center;
     padding: 20px;
-}
-
-.logo{
-    height: 50px;
-    margin-right: 900px;
-    margin-top: 10px;
 }
 
 ul a{
@@ -27,32 +23,47 @@ ul a{
     text-decoration: none;
 }
 
-h1{
-    text-align: center;
-    font-size: 40px;
+.articulo {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 50px;
+    border: 2px solid #af0000;
+}
+
+.bamba {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.bamba img {
+    width: 100px;
+    border-radius: 4px;
+}
+
+.nombre {
+    flex: 2;
     color: #af0000;
 }
 
-.lebron{
-    color: #af0000;
-    font-size: 25px;
-    text-align: center;
+.precio {
+    padding-top: 1rem;
 }
-
-.bamba img{
-    width: 500px;
-    height: 300px;
-    margin-left: 680px;
-}
-
-.boton{
+.precio button {
     background-color: #af0000;
-    border-radius: 10px;
-    color: white;
-    cursor: pointer;
-    margin-left: 948px;
 }
 
-.precio{
-    margin-left: 958px;
+.final {
+    background: black;
+    color: white;
+    padding: 1rem;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 1rem;
 }
