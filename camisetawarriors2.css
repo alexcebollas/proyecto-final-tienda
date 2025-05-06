@@ -12,6 +12,12 @@ header{
     padding: 20px;
 }
 
+.logo{
+    height: 50px;
+    margin-right: 900px;
+    margin-top: 10px;
+}
+
 ul a{
     list-style: none;
     padding: 10px 15px;
