@@ -32,7 +32,7 @@ ul a{
     border: 2px solid #af0000;
 }
 
-.accesorios {
+.ofertas {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -40,7 +40,7 @@ ul a{
     margin-bottom: 2rem;
 }
 
-.accesorios img {
+.ofertas img {
     width: 100px;
     border-radius: 4px;
 }
