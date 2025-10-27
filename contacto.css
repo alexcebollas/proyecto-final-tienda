@@ -1,13 +1,13 @@
 body{
     margin: 0;
+    background-color: whitesmoke;
 }
 
 header{
     max-width: 100%;
-    background-color: #af0000;
+    background-color: white;
     display: flex;
     justify-content: center;
-    padding: 20px;
 }
 
 .logo{
@@ -22,7 +22,7 @@ ul a{
     text-align: center;
     font-size: 20px;
     cursor: pointer;
-    color: #ffffff;
+    color: #af0000;
     text-decoration: none;
     display: inline-flex;
 }
@@ -49,14 +49,13 @@ h1{
 
 .button{
     justify-content: center;    
-    display: flex;
     margin-bottom: 20px;
-}
-
-.boton{
     border-radius: 10px;
     color: white;
     cursor: pointer;
-    display: flex;
     background-color: #af0000;
+}
+
+.button:hover{
+    background: black;
 }
